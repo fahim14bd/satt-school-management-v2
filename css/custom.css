@@ -1,0 +1,33 @@
+@font-face {
+    font-family: SutonnyOMJ;
+    src: url(../fonts/webfonts/SutonnyOMJ.ttf);
+}
+
+@font-face {
+    font-family: SuBold;
+    src: url(../fonts/webfonts/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+    font-family: SuRegular;
+    src: url(../fonts/webfonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: MontRegular;
+    src: url(../fonts/webfonts/Montserrat-Regular.ttf);
+}
+
+@media (max-width: 480px) {
+    .rutin a {
+        margin-top: 1em;
+    }
+	
+	.footer-2 .copyright p {
+		text-align: center!important;
+	}
+	
+	.footer-2 ul.justify-content-end {
+		justify-content: center!important;
+	}
+}

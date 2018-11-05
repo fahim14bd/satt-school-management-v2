@@ -1,0 +1,576 @@
+body {
+    font-family: SuBold;
+    margin: 0;
+    padding: 0;
+    background-color: #fff!important;
+}
+
+.row, p {
+    margin: 0;
+}
+
+/*...nav area...*/
+
+
+.menu {
+    background: #00d463;
+}
+
+.menu .navbar-brand {color: white;}
+.menu .navbar-brand:hover {color: white;}
+
+.menu .nav-item a{
+    color: white;
+}
+
+.menu .nav-item .nav-link {
+    display: block;
+    padding: 0.8rem 1rem;
+}
+
+.menu .nav-item .nav-link:hover{
+    border-bottom: 4px solid #fff;
+    transition-delay: .2s;
+    transition-duration: .3s;
+}
+
+.menu .nav-item {
+    padding: 0 .5em;
+}
+
+.menu .nav-link.active {
+    border-bottom: 4px solid #fff;
+    transition-delay: .2s;
+    transition-duration: .3s;
+}
+
+.dropdown-menu a{ color: #00d463!important;}
+
+.dropdown-item.active,.dropdown-item:active {
+    color: #fff!important;
+    background-color: #00d463!important;
+}
+/*...nav area end...*/
+
+
+/*...slider area...*/
+
+.slider {
+    background: url(../img/school-1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider .sub-text {
+    font-family: sans-serif;
+}
+
+.slider .btn-primary {
+    font-family: SuRegular;
+    font-size: 1.2vw;
+    border: 2px solid #00d463;
+    background-color: #00d463;
+    border-radius: 26px;
+    padding: 0.6vw 3vw!important;
+}
+
+.slider .btn-primary:hover {
+    color: #00d463;
+    border: 2px solid #00d463;
+    background-color: #fff;
+}
+
+.overlay {
+    background-color: rgba(64, 62, 62, 0.7);
+}
+
+.carousel-caption {
+    position: unset;
+    color: #ffffff;
+    font-size: 1.4vw;
+    text-align: left;
+    padding: 16% 8%;
+}
+
+.carousel-caption h5 {
+    font-size: 3vw;
+}
+
+/*...slider area end...*/
+
+
+
+/*...main area...*/
+
+.sub-text {
+    font-family: SuRegular;
+}
+
+.read {
+    text-decoration: none;
+    font-family: SuRegular;
+    color: #fff!important;
+    background-color: #00d463;
+    border: 2px solid #00d463;
+}
+
+.read:hover {
+    text-decoration: none;
+    color: #00d463!important;
+    background-color: #fff;
+    border: 2px solid #00d463;
+}
+
+.see {
+    display: inline-block!important;
+    font-family: SuRegular!important;
+    font-size: 18px;
+    text-decoration: none!important;
+    color: #212121;
+}
+
+.see:hover {
+    color: #00d463;
+    transition: all .4s ease;
+}
+
+.see:hover i {
+    opacity: 1;
+    color: #00d463;
+    transform: translateX(0);
+}
+
+.see span {
+    display: inline-block;
+    padding-right: 3px;
+}
+
+.see i {
+    vertical-align: middle;
+    opacity: 0;
+    transform: translateX(-5px);
+    transition: transform .4s ease-in-out,opacity .1s;
+}
+
+.s-features {
+    color: #fff;
+    background: #00e76c;
+}
+
+.s-features .sub-title {
+    font-family: MontRegular, sans-serif;
+}
+
+.sch-fea {
+    padding: 10px 20px;
+    transition: all .8s ease;
+}
+
+.sch-fea p {
+    font-family: MontRegular, sans-serif;
+}
+
+.sch-fea:hover { 
+    background-color: #fff;
+    transition: .8s;
+    border-radius: 4px;
+    box-shadow: 0px 8px 20px -2px #00000036;
+}
+
+.sch-fea:hover i { 
+    color: #00d463;
+}
+
+.sch-fea:hover h5 { 
+    color: #363636;
+}
+
+.sch-fea:hover p { 
+    font-family: MontRegular, sans-serif;
+    color: #343434;
+}
+
+.rutin { 
+    background: #00d463;
+    padding: 8px 0;
+    font-weight: bold;
+}
+
+.rutin a {
+    display: block;
+    font-family: SuRegular;
+    text-decoration: none;
+    color: #00d463;
+    background-color: #fff;
+    padding: 8px 30px;
+    border: 4px solid #fff;
+    border-radius: 0px 30px 0px 30px;
+    transition: all .4s ease;
+}
+
+.rutin a:hover {
+    color: #fff;
+    background-color: #00d463;
+    border-radius: 0px 40px 0px 36px;
+    transition-duration: .4s;
+}
+
+.notice-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notice-box ul li {
+    border-bottom: 1px solid #dedede;
+    padding: 10px 0px;
+}
+
+.notice-box ul li:hover {
+    border-bottom: 1px solid #00d463;
+}
+
+.notice-box a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px;
+    transition: all .4s ease;
+}
+
+.notice-box a:hover {
+    display: block;
+    border-right: 4px solid #00d463;
+    padding-left: 0;
+    padding-right: 20px;
+    transition-delay: .2s;
+    transition-duration: .4s;
+}
+
+.notice-box ul li a:hover .title,
+.notice-box ul li a:hover .see-details {
+    color: #00d463;
+}
+
+.date,.see-details {
+    text-transform: uppercase;
+}
+
+.notice-box 
+.date,
+.abstract,
+.see-details {
+    font-family: MontRegular, sans-serif;
+    color: #343434;
+}
+
+.notice-box .title {
+    font-family: SuRegular, sans-serif;
+    color: #000;
+    font-weight: 600;
+}
+
+.main-5 {
+    color: #fff;
+    background: #00e76c;
+}
+
+.main-5 .sub-title {
+    font-family: MontRegular, sans-serif;
+}
+
+.main-5 i {
+    font-size: 2em;
+}
+
+/* event css start */
+
+.event a{ 
+    color: white
+}
+
+.event a:hover{ 
+    color:#fff;
+    transition: .5s;
+}
+
+.event-content h5 a{ color: #00d463;}
+
+.event-content h5 a:hover{ 
+    color: #00eb6e;
+    text-decoration: none;
+    
+}
+
+.event-content .meta,
+.event-content p { 
+    font-family: MontRegular, sans-serif;
+}
+
+
+.single-event img:hover{
+    transform: scale(1.1);
+    transition-duration: .9s;
+   
+}
+
+.single-event .head{
+    overflow: hidden;
+    margin-bottom: 10px!important;
+}
+
+/* event css start */
+
+table a{
+    font-family: SutonnyOMJ;
+    font-size: 18px;
+}
+
+.news{
+    font-family: SutonnyOMJ;
+    font-size: 18px;
+}
+.news img{ height: 340px;}
+
+/*...main area end...*/
+
+/*...footer area...*/
+
+.footer-1{ color: white;}
+
+.footer-1 {
+    background: #00d463;
+}
+
+.footer-1 a{color: white;}
+
+.footer-1 a:hover{
+    color: #c4c4c4;
+    text-decoration: none;
+}
+
+.subscribe {
+    font-family: SuRegular;
+    color: #fff!important;
+    background-color: #00d463;
+    border: 2px solid #fff;
+}
+
+.subscribe:hover {
+    color: #00d463!important;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+.copyright p {
+    font-family: SuRegular;
+    font-size: 1.1em;
+}
+
+.copyright a {
+    text-decoration: none;
+    font-family: SuRegular;
+    color: #00d463;
+    font-size: 1.2em;
+}
+
+.copyright a i {
+    margin-right: 3px;
+    font-size: 1.4em;
+}
+
+.social a {
+    font-size: 26px;
+    padding: 0 4px;
+    color: #00d463;
+    vertical-align: bottom;
+}
+
+.social a:hover {
+    color: #00cb5f;
+}
+
+/*...footer area end...*/
+
+
+/*...About area...*/
+
+.banner-1 {
+    background: url(../img/books-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-2 {
+    background: url(../img/books-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-3 {
+    background: url(../img/books-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-4 {
+    background: url(../img/books-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-5 {
+    background: url(../img/books-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-6 {
+    background: url(../img/books-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-7 {
+    background: url(../img/books-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-8 {
+    background: url(../img/books-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-9 {
+    background: url(../img/books-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-1 h2,
+.banner-2 h2,
+.banner-3 h2,
+.banner-4 h2,
+.banner-5 h2,
+.banner-6 h2,
+.banner-7 h2,
+.banner-8 h2,
+.banner-9 h2 {
+    display: inline-block;
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ffffff;
+}
+
+.teacher .card h5 {
+    border-bottom: 1px solid;
+    padding-bottom: 1em;
+}
+
+.teacher .card {
+    overflow: hidden;
+}
+
+.teacher .card:hover * {
+    color: #fff;
+}
+
+.teacher .card:hover img {
+    transform: scale(1.1);
+    transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+}
+
+.teacher .card .card-body {
+    z-index: 10;
+}
+
+.teacher .card:hover .card-body {
+    background: #00e76c;
+    transition: all 0.3s linear 0s;
+}
+
+/*...About area end...*/
+
+/*...Notices area...*/
+
+.not-pages .page-item.disabled .page-link {
+    color: rgba(0, 219, 99, 0.44);
+}
+
+.not-pages .page-item.active .page-link {
+    background-color: #03ef6e;
+    border-color: #03ef6e;
+}
+
+.not-pages .page-link {
+    color: #00d463;
+}
+
+.not-pages .page-link:hover {
+    color: #fff!important;
+    background-color: #03ef6e;
+    border-color: #03ef6e;
+}
+
+/*...Notices area end...*/
+
+/*...Contact area...*/
+
+.contact ul i {
+	color: #00d463;
+}
+
+.contact ul a {
+	text-decoration: none;
+	color: #212529;
+}
+
+/*...Contact area end...*/
+
+/*...Apply area...*/
+
+.apply 
+.custom-file-input {
+    cursor: pointer;
+}
+
+.apply 
+.custom-file-label::after {
+    top: -1px;
+    right: -1px;
+    height: 2.33rem;
+    color: #fff;
+    content: "Browse";
+    background-color: #00d463;
+    border-left: 1px solid #00d463;
+}
+
+/*...Apply area end...*/
+
+.array img { 
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.now{
+    background-color: forestgreen;
+    color: white;
+}
+
+.calender {font-family: 'Open Sans';}
+body { background-color: #fafafa; }
+pre {font-family: Courier New;}
